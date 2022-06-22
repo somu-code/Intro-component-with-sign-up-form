@@ -37,8 +37,8 @@ Mobile view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-HkFFNCVLkn)
+- Live Site URL: [Live site URL here](https://intro-component-with-sign-up-form.pages.dev)
 
 ### Built with
 

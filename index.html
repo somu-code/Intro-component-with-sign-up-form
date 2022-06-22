@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+
+  <main class="main-container">
+    <div class="flex">
+      <section class="heading-paragraph">
+        <h1 class="heading">Learn to code by watching others</h1>
+        <p class="paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+          great, but understanding how developers think is invaluable.</p>
+      </section>
+
+      <section class="box">
+        <div class="box-duration"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+        <form class="box-form" id="box-form">
+
+          <input type="text" id="firstName" placeholder="First Name">
+          <p class="error-message" id="p_firstName">First Name cannot be empty</p>
+
+          <input type="text" id="lastName" placeholder="Last Name">
+          <p class="error-message" id="p_lastName">Last Name cannot be empty</p>
+
+          <input type="text" id="email" placeholder="Email Address">
+          <p class="error-message" id="p_email">Looks like this not an email</p>
+
+          <input type="password" id="password" placeholder="Password">
+          <p class="error-message" id="p_password">Password cannot be empty</p>
+
+          <button id="button">Claim your free trial</button>
+          <p class="box-form-paragraph">By clicking the button, you are agreeing to our <span>Terms and Services</span>
+          </p>
+
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/somu-code" target="_blank">Somnath Golui</a>.
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
